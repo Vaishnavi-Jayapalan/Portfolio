@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vaishnavi-Jayapalan.github.io/static/css/main.0968a8ed.css",
+    "main.js": "/Vaishnavi-Jayapalan.github.io/static/js/main.25b8b3a7.js",
+    "static/js/787.7da95b79.chunk.js": "/Vaishnavi-Jayapalan.github.io/static/js/787.7da95b79.chunk.js",
+    "index.html": "/Vaishnavi-Jayapalan.github.io/index.html",
+    "main.0968a8ed.css.map": "/Vaishnavi-Jayapalan.github.io/static/css/main.0968a8ed.css.map",
+    "main.25b8b3a7.js.map": "/Vaishnavi-Jayapalan.github.io/static/js/main.25b8b3a7.js.map",
+    "787.7da95b79.chunk.js.map": "/Vaishnavi-Jayapalan.github.io/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0968a8ed.css",
+    "static/js/main.25b8b3a7.js"
+  ]
+}
