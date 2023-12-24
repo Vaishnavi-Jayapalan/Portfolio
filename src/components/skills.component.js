@@ -29,7 +29,7 @@ function SkillsComponent() {
             <h3 className='text-center fw-bold mt-2 color-grey pb-5'>TOP SKILLS</h3>
             {skills && skills?.topSkills?.map((skill, i) => {
                 return (
-                    <>
+                    <div  key={i}>
                     <div className='col p-2'>
                         <p className='font-md-text cl-lg-drk-gry'>{skill.data}</p>
                         <div className="progress">
@@ -37,14 +37,14 @@ function SkillsComponent() {
                         </div>
                     </div>
                     {i===1 && <div className="w-100 p-2"></div>}
-                    </>
+                    </div>
                 );
             })}
             <h3 className='text-center fw-bold mt-5 color-grey pt-5 pb-5'>OTHER SKILLS</h3>
             <div className='row'>
             <div className='col text-center'>
-                {skills && skills?.others?.map((value) => {
-                    return <span className='font-lg-text pr-20'><Badge bg='light' text="dark">{value}</Badge></span>
+                {skills && skills?.others?.map((value, i) => {
+                    return <span className='font-lg-text pr-20' key={i}><Badge bg='light' text="dark">{value}</Badge></span>
                 })}
             </div>
             </div>

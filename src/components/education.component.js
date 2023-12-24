@@ -21,9 +21,9 @@ function EducationComponent(props) {
         <div className='row mt-5' id='education'>
             <h1 className='float-left fw-bold'>EDUCATION</h1>
             <ul className='ml-5-rem font-md-text color-lg-blk '>
-                {education?.map((data) => {
+                {education?.map((data, i) => {
                     return (
-                        <li className='pb-2'>
+                        <li className='pb-2' key={i}>
                             <h3 className='fw-bold mt-2 cl-lg-drk-gry pb-2'>{data.course} - {data.college}, {data.city}</h3>
                             <p className='color-grey font-md-text'>{data.year}</p>
                         </li>
